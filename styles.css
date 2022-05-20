@@ -52,8 +52,10 @@ h1.name {
 /* Portfolio CSS */
 .portfolio-header {
     margin: auto;
-    padding: 50px 100px;
+    padding: 100px 100px;
     background: lightsalmon;
+}
+.portfolio-header h2{
 	font-size: 250%;
 }
 .cards {
@@ -109,3 +111,4 @@ h1.name {
 	line-height: 20px;
 	font-size: 16px;
 }
+
