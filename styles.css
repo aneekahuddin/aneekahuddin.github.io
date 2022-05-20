@@ -114,3 +114,13 @@ h1.name {
 	font-size: 16px;
 }
 
+/* Inspiration */
+.inspire-header {
+    margin: auto;
+    padding: 100px 100px;
+    background: lightcoral;
+}
+.inspire-header h2{
+	font-size: 250%;
+	text-align: center;
+}
