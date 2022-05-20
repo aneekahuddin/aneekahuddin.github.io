@@ -39,11 +39,12 @@ body {
 	color: #04143A;
     text-align: center;
 }
-h1 {
+h1.name {
     font-size: 200px;
     font-weight: 300%;
 }
 .hero {
     margin: auto;
     padding: 100px 100px;
+    background: lightseagreen;
 }
