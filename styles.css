@@ -40,11 +40,22 @@ body {
     text-align: center;
 }
 h1.name {
-    font-size: 200px;
+    font-size: 500%;
     font-weight: 300%;
 }
 .hero {
     margin: auto;
     padding: 100px 100px;
     background: lightseagreen;
+}
+.card {
+	width: 47.9%;
+	height: 200px;
+	background-color: #EEF0F7;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px
 }
