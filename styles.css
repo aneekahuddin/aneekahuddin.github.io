@@ -124,3 +124,14 @@ h1.name {
 	font-size: 250%;
 	text-align: center;
 }
+
+/* Connect */
+.connect-header {
+    margin: auto;
+    padding: 50px 100px;
+    background: lightpink;
+}
+.connect-header h2{
+	font-size: 250%;
+	text-align: center;
+}
