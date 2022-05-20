@@ -57,6 +57,7 @@ h1.name {
 }
 .portfolio-header h2{
 	font-size: 250%;
+	text-align: center;
 }
 .cards {
 	display: block;
