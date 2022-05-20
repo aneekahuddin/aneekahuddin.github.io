@@ -52,7 +52,7 @@ h1.name {
 /* Portfolio CSS */
 .portfolio-header {
     margin: auto;
-    padding: 100px 100px;
+    padding: 50px 100px;
     background: lightsalmon;
 }
 .portfolio-header h2{
@@ -117,7 +117,7 @@ h1.name {
 /* Inspiration */
 .inspire-header {
     margin: auto;
-    padding: 100px 100px;
+    padding: 50px 100px;
     background: lightcoral;
 }
 .inspire-header h2{
