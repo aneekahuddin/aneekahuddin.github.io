@@ -65,7 +65,8 @@ h1.name {
 .card {
 	width: 47.9%;
 	height: 300px;
-	background-color: #EEF0F7;
+	/*background-color: #EEF0F7;*/
+	background-color: blanchedalmond;
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
