@@ -38,3 +38,7 @@ body {
 	background-color: #FEFEFE;
 	color: #04143A;
 }
+.hero {
+    margin: auto;
+    padding: 100px 100px;
+}
