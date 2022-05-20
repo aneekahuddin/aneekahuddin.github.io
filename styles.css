@@ -68,6 +68,21 @@ h1.name {
 	display: inline-block;
 	max-width: 160px;
 }
+.card-pic span {
+	font-size: 35px;
+	font-weight: 300;
+	color: #5B6A9A;
+	vertical-align: top;
+}
+
+.card-pic h2 {
+	font-size: 95px;
+	font-weight: 300;
+	display: inline-block;
+	vertical-align: top;
+	color: #5B6A9A;
+	letter-spacing: -5px;
+}
 .card-cap {
 	vertical-align: top;
 	display: inline-block;
@@ -75,4 +90,16 @@ h1.name {
 	text-align: left;
 	margin-top: 15px;
 	margin-left: 15px;
+}
+.card-cap h3 {
+	font-size: 20px;
+	font-weight: 800;
+	color: #5B6A9A;
+	margin-bottom: 5px;
+}
+
+.card-cap span{
+	color: #81899C;
+	line-height: 20px;
+	font-size: 16px;
 }
