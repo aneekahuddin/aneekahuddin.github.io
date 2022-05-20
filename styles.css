@@ -59,3 +59,15 @@ h1.name {
 	text-align: center;
 	padding-top: 50px
 }
+.card-pic {
+	display: inline-block;
+	max-width: 160px;
+}
+.card-cap {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 300px;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
