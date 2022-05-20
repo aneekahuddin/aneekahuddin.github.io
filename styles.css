@@ -48,6 +48,14 @@ h1.name {
     padding: 300px 100px;
     background: lightseagreen;
 }
+
+/* Portfolio CSS */
+.portfolio-header {
+    margin: auto;
+    padding: 50px 100px;
+    background: lightsalmon;
+	font-size: 250%;
+}
 .cards {
 	display: block;
 }
