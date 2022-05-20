@@ -38,6 +38,10 @@ body {
 	background-color: #FEFEFE;
 	color: #04143A;
 }
+h1 {
+    font-size: 200px;
+    font-weight: 300%;
+}
 .hero {
     margin: auto;
     padding: 100px 100px;
