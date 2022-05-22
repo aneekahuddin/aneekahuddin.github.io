@@ -48,13 +48,13 @@ h1.name {
 	color: lightcyan;
 	font-size: 200%;
 }
-.lead {
+.lead1 {
 	color: lightblue;
 	font-size: 150%;
 }
 .hero {
     margin: auto;
-    padding: 300px 100px;
+    padding: 270px 100px;
     background: lightseagreen;
 }
 
