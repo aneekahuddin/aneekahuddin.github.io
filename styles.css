@@ -72,11 +72,17 @@ h1.name {
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 50px
+	padding-top: 20px
+	padding-bottom: 15px;
 }
 .card-pic {
 	display: inline-block;
 	max-width: 160px;
+}
+.card-pic img {
+	height: 100%;
+	width: 100%;
+	padding-top: 15px;
 }
 .card-pic span {
 	font-size: 35px;
@@ -134,8 +140,8 @@ h1.name {
 
 .miro iframe {
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 5%;
+	left: 5%;
 	width: 90%;
 	height: 90%;
 }
