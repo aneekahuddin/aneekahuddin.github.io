@@ -177,11 +177,16 @@ h1.name {
 }
 .context {
 	padding: 30px;
-	float: right;
+    display: inline-block;
+    width: 30%;
 }
 .media1 {
 	padding: 30px;
-	float: right;
-	width: 100%;
-	height: 100%
+    display: inline-block;
+    float: left;
+    width: 90%;
+    height: 100%;
+}
+.media1 img {
+	display: inline-block;
 }
