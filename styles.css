@@ -181,7 +181,7 @@ h1.name {
     float: left;
     width: 350px;
 }
-.context p {
+.context h2 {
 	float: left;
     padding: 10px;
     margin-left: 10px;
@@ -189,6 +189,22 @@ h1.name {
     text-align: center;
     padding-top: 20%;
     width: calc(100% - 350px - 70px);
+}
+.approach {
+	margin: 10px;
+	padding-bottom: 50px;
+}
+.approach h3 {
+	text-align: center;
+	padding: 30px;
+	font-size: 150%;
+}
+.approach h4 {
+	padding: 15px;
+}
+.approach p {
+	margin-left: 25px;
+	margin-right:25px;
 }
 
 

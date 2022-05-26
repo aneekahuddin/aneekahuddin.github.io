@@ -14,22 +14,23 @@
 
 
 		<div class="context">
-			<p><strong>Problem: </strong>Train and classify datasets to identify handwritten digits</p>
+			<h2><strong>Problem: </strong>Train and classify datasets to identify handwritten digits</h2>
 			<img src="../images/handwriting.png" alt="pixel versions of filters applied via CNN"/>
 		</div>
 
+		<div class= "break"></div>
+
 	
 	<div class="approach">
-		<h3>How did we approach this?</h3>
+		<h3>Our Approach</h3>
 		<h4>First, how do we train our model.</h4>
+		<p>We took the R value of the RGB values of each pixel and computed the weighted sum (using a 1d array of the grayscale color values and with each perceptron). We created a “Perceptron” for each classifier value (digits 0-9). Anytime in the training dataset, we would run it through all the perceptrons, to train it with the information. It would update each of the classifications with either a positive or negative.</p>
 		<h4>Classification</h4>
+		<p>We tested our model by running different sizes of datasets for training and testing and ended with the highest accuracy at 92% with a dataset of 60K images for training and 1K for testing.</p>
 		<h4>Another way to train model</h4>
-		<h4>Comparison of Results</h4>
-	</div>
-	<div class="media2">
-		<p>another placeholder for an image or video or github link</p>
-	</div>
-	<div class="changes">
-		<h3>Changes + Extensions for the Future</h3>
+		<p>I also worked on developing unsupervised models to do the same thing. One was Fully Connected while the other was a CNN but still used the same dataset and performed the same function. The accuracy of the Fully Connected network was 98.07% and the CNN was 98.7%. The Fully Connected Layer performs worse than the CNN. One reason is because the CNN identifies digits by the different features detected by each of the filters but the Fully Connected Layer does not do this. Thus it makes it harder for the the Fully Connected Layer to recognize the different features in the image and associate it with a digit, especially since the digit could be slightly rotated/shifted, etc.</p>
+		<h4>Changes + Extensions for the Future</h4>
+		<p>- Other colors - All our images were grayscale. How would we have to change our math and information extraction for non grayscale images?</p>
+		<p>- Other characters - What else could we possibly read in? Icons? Emojis? etc.</p>
 	</div>
 </body>
