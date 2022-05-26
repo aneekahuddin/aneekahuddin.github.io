@@ -175,16 +175,20 @@ h1.name {
 	width: 98%;
 	padding: 20px 20px;
 }
-/*.context {
-	padding: 30px;
-    display: inline-block;
-}*/
-.media1 img {
-	padding: 30px;
+
+.context img {
+	padding: 20px;
     float: left;
     width: 350px;
 }
 .context p {
-	float:left;
-	width: calc(100% - 350px - 60px);
+	float: left;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 20%;
+    width: calc(100% - 350px - 70px);
 }
+
+
