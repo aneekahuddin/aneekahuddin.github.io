@@ -168,3 +168,13 @@ h1.name {
 	font-size: 250%;
 	text-align: center;
 }
+
+/* Portfolio Pages */
+.context {
+	padding: 30px;
+	float: left;
+}
+.media1 {
+	padding: 30px;
+	float: left;
+}
