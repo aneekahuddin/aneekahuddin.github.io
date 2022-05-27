@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Work: Seam Carver</title>
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="portfolio-header">
+			<h2 class="lead"><strong>Seam Carver</strong></h2>
+		</div>
+	</div>
+
+		<div class="context">
+			<h2><strong>Problem: </strong>Create a resizing image application that preserves interesting parts of a photo</h2>
+			<img src="../images/handwriting.png" alt="a "seam" identified for removal, photo courtesy Princeton COS 226"/>
+		</div>
+
+		<div class= "break"></div>
+
+	
+	<div class="approach">
+		<h3>Our Approach</h3>
+		<h4>First, how do we identify how much to remove?</h4>
+		<p>When resizing, you change the dimensions of a photo meaning each time you resize, you remove a column or a row.</p>
+        <p>Find pixels that have the least amount of change in color in the pictures: We calculated the “energy” of a pixel using its RGB values. Then with the pixels surrounding it, we found the change in energy in the X and Y directions using the values of the pixels in the + and - 1 directions. For edge pixels, we wrapped around the photo.</p>
+		<h4>Algorithm</h4>
+        <p>We debated between Dykstra’s algorithm and DP. Dykstra had complexities in the code that would make it difficult to keep track of the smallest energy among all of the rows. DP was a much more straightforward approach with little tradeoff with space/time complexity and led to more readable and easier code. We went with DP. We would attempt Dykstras if DP went over time</p>
+		<h4>Changes + Extensions for the Future</h4>
+        <p>- Change the output so that it also released the original picture but the pixels that were removed are highlighted.</p>
+        <p>- Try different algorithms such as Dykstra, Belman Ford, Topological Sort</p>
+	</div>
+</body>

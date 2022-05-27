@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Aneekah Uddin</title>
+	<title>Work: Advanced Replacement Cache (ARC)</title>
 	<link rel="stylesheet" type="text/css" href="../styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div class="container">
 		<div class="portfolio-header">
-			<h2 class="lead"><strong>Advanced Replacement Cache</strong></h2>
+			<h2 class="lead"><strong>Advanced Replacement Cache (ARC)</strong></h2>
 		</div>
 	</div>
 
-	<div class="context">
-		<p>Discussion about how this is the problem</p>
-	</div>
-	<div class="media1">
-		<img src="../images/cache.png" alt="advanced replacement cache test cases"/>
-	</div>
+
+		<div class="context">
+			<h2><strong>Problem: </strong>Develop a cache that works for applications that don’t know whether frequency or recency should be the metric of use.</h2>
+			<img src="../images/cache.png" alt="advanced replacement cache test cases"/>
+		</div>
+
+		<div class= "break"></div>
+
+	
 	<div class="approach">
-		<p>blah blah about approach</p>
-	</div>
-	<div class="media2">
-		<p>another placeholder for an image or video or github link</p>
-	</div>
-	<div class="changes">
-		<p>Discussion about future changes</p>
-	</div>
+		<h3>Our Approach</h3>
+		<h4>First, we figured out how the cache worked from the paper.</h4>
+		<p>We sought to understand the different abstractions and how that would translate to different data structures. Adaptive Replacement cache utilizes both LRU and LFU caching systems. To determine the ratio of LRU to LFU, a calculation is done based on how many times an element enters a cache and how large the “ghost entries” (items that were no longer in the cache) of each cache was.</p>
+		<h4>Implementation</h4>
+		<p>Both my partner and I had worked on another caching project before with simpler caches such as FIFO, LRU, and LFU. We used that knowledge to consider how we would organize our data structures and what classes could be helpful. Eventually we decided to use slices and dicts to keep track of the different lists in the cache, and the number of entries in each which would change the ratio between the LRU and LFU sides of the cache. (Hence, adaptive replacement). </p>		<h4>Another way to train model</h4>
+		<h4>Testing</h4>
+		<p>After developing a working implementation, we decided to test for correctness. We checked that each of the four major actions and all of the subcases of each action happened in accordance with the paper. Further, we tested out each path in our code, edge cases (empty caches, etc.), and then stress tested (random calls with random users). Once we were certain that our code was running properly, we cleaned it up to make it more readable. </p>
+		<h4>Changes + Extensions for the Future</h4>
+		<p>- Adding in visualization</p>
+		<p>		- I would love to see the cache change with a color coded animation of sorts instead of just printing it out every few calls.</p>
+		<p>- Using the cache in another application</p>
+		<p>		- I would like to see where it could be useful to use the cache like an API in another function.</p>	</div>
 </body>
